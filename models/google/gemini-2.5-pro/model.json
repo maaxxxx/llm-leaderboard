@@ -10,10 +10,10 @@
   "multimodal": true,
   "web_hydrated": true,
   "knowledge_cutoff": "2025-01-31",
-  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models?hl=en#gemini-2.5-pro-preview-03-25",
-  "playground_link": "https://aistudio.google.com/?model=gemini-2.5-pro-preview-03-25",
+  "api_ref_link": "https://ai.google.dev/gemini-api/docs/models?hl=en#gemini-2.5-pro-preview-06-05",
+  "playground_link": "https://aistudio.google.com/?model=gemini-2.5-pro-preview-06-05",
   "paper_link": "https://storage.googleapis.com/model-cards/documents/gemini-2.5-pro-preview.pdf",
-  "scorecard_blog_link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+  "scorecard_blog_link": "https://blog.google/products/gemini/gemini-2-5-pro-latest-preview/",
   "repo_link": null,
   "weights_link": null,
   "param_count": null,
@@ -21,26 +21,26 @@
   "qualitative_metrics": [
     {
       "dataset_name": "Humanity's Last Exam",
-      "score": 0.178,
+      "score": 0.216,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-01",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
       "dataset_name": "GPQA",
-      "score": 0.83,
+      "score": 0.864,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
       "dataset_name": "AIME 2025",
-      "score": 0.83,
+      "score": 0.880,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
@@ -52,19 +52,19 @@
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
-      "dataset_name": "LiveCodeBench v5",
-      "score": 0.756,
+      "dataset_name": "LiveCodeBench",
+      "score": 0.690,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
       "dataset_name": "Aider-Polyglot Edit",
-      "score": 0.727,
+      "score": 0.822,
       "is_self_reported": true,
-      "analysis_method": "Diff",
-      "date_recorded": "2025-03-26",
+      "analysis_method": "Diff-fenced",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
@@ -77,34 +77,34 @@
     },
     {
       "dataset_name": "SWE-bench Verified",
-      "score": 0.632,
+      "score": 0.672,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
       "dataset_name": "SimpleQA",
-      "score": 0.508,
+      "score": 0.540,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
       "dataset_name": "MMMU",
-      "score": 0.796,
+      "score": 0.820,
       "is_self_reported": true,
       "analysis_method": "Pass@1",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-06",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
       "dataset_name": "Vibe-Eval-Reka",
-      "score": 0.656,
+      "score": 0.820,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
@@ -116,11 +116,19 @@
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
+      "dataset_name": "MRCR v2",
+      "score": 0.580,
+      "is_self_reported": true,
+      "analysis_method": "128k-average",
+      "date_recorded": "2025-06-05",
+      "source_link": "https://deepmind.google/models/gemini/pro/"
+    },
+    {
       "dataset_name": "Global-MMLU-Lite",
-      "score": 0.886,
+      "score": 0.892,
       "is_self_reported": true,
       "analysis_method": "Accuracy",
-      "date_recorded": "2025-03-26",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     },
     {
@@ -137,6 +145,14 @@
       "is_self_reported": true,
       "analysis_method": "Pointwise",
       "date_recorded": "2025-03-26",
+      "source_link": "https://deepmind.google/models/gemini/pro/"
+    },
+    {
+      "dataset_name": "MRCR v2 (8-needle) 1M (pointwise)",
+      "score": 0.164,
+      "is_self_reported": true,
+      "analysis_method": "Pointwise",
+      "date_recorded": "2025-06-05",
       "source_link": "https://deepmind.google/models/gemini/pro/"
     }
   ]
